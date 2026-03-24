@@ -1,0 +1,81 @@
+{
+  "project_name": "worklog-pwa1",
+  "current_artifact": "SPEC.md",
+  "current_phase": "spec",
+  "final_status": "in_progress",
+  "artifact_order": [
+    "SPEC.md",
+    "USECASE.md",
+    "SEQUENCE.md",
+    "CLASS.md",
+    "TEST.md",
+    "IMPLEMENTATION_PLAN.md"
+  ],
+  "artifacts": {
+    "SPEC.md": {
+      "status": "questions_pending",
+      "review_status": "NEEDS_REVISION",
+      "review_file": "reviews/SPEC_review.md",
+      "questions_file": "qa/SPEC_questions.md",
+      "answers_file": "qa/SPEC_answers.md",
+      "revision_count": 0,
+      "approved": false
+    },
+    "USECASE.md": {
+      "status": "not_started",
+      "review_status": null,
+      "review_file": "reviews/USECASE_review.md",
+      "questions_file": "qa/USECASE_questions.md",
+      "answers_file": "qa/USECASE_answers.md",
+      "revision_count": 0,
+      "approved": false
+    },
+    "SEQUENCE.md": {
+      "status": "not_started",
+      "review_status": null,
+      "review_file": "reviews/SEQUENCE_review.md",
+      "questions_file": "qa/SEQUENCE_questions.md",
+      "answers_file": "qa/SEQUENCE_answers.md",
+      "revision_count": 0,
+      "approved": false
+    },
+    "CLASS.md": {
+      "status": "not_started",
+      "review_status": null,
+      "review_file": "reviews/CLASS_review.md",
+      "questions_file": "qa/CLASS_questions.md",
+      "answers_file": "qa/CLASS_answers.md",
+      "revision_count": 0,
+      "approved": false
+    },
+    "TEST.md": {
+      "status": "not_started",
+      "review_status": null,
+      "review_file": "reviews/TEST_review.md",
+      "questions_file": "qa/TEST_questions.md",
+      "answers_file": "qa/TEST_answers.md",
+      "revision_count": 0,
+      "approved": false
+    },
+    "IMPLEMENTATION_PLAN.md": {
+      "status": "not_started",
+      "review_status": null,
+      "review_file": "reviews/IMPLEMENTATION_PLAN_review.md",
+      "questions_file": "qa/IMPLEMENTATION_PLAN_questions.md",
+      "answers_file": "qa/IMPLEMENTATION_PLAN_answers.md",
+      "revision_count": 0,
+      "approved": false
+    }
+  },
+  "blocking_issues": [
+    {
+      "id": "BI-001",
+      "artifact": "SPEC.md",
+      "description": "Q18-Q25（admin代理作成・セッション期限・base_revision・時刻項目・検索API・仮PW強制・MVP分類・CORS）が未回答",
+      "created_at": "2026-03-24T00:00:00+09:00",
+      "status": "open"
+    }
+  ],
+  "human_decisions_pending": [],
+  "next_action": "answer_questions"
+}
